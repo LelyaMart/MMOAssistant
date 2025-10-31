@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ИИ-ассистент</title>
-
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
@@ -303,16 +301,6 @@
   </style>
 </head>
 <body>
-  <header>ИИ-ассистент</header>
-
-  <div class="content">
-    <!-- Google Slides -->
-    <div class="block">
-      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSlc1ElL2G6-5C0dwG1_q0EAg5Ts6SxQHLKYvZiGGQh8Oj-srpoKDvFeqvG0Ara2oNo7z0YLCBzwmm1/embed?start=false&loop=false&delayms=3000"
-              allowfullscreen>
-      </iframe>
-    </div>
-
     <!-- Ассистент -->
     <div class="block">
     <div class="chat-container" id="chat">
@@ -331,7 +319,7 @@
               class="form-control"
               id="user-input"
               rows="3"
-              placeholder="Напишите запрос (пример: 'Какие инструменты использовать для генерации видео?')"
+              placeholder="Напишите запрос (пример: 'Какие были успешные кейсы Blogger Only?')"
               aria-label="Ввод сообщения"
             ></textarea>
             <button
@@ -350,7 +338,7 @@
 
 <script>
     // Конфигурация
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzJsXsR-1bJV8PBEQ9e1wAM_CVewP3POfc73gNyO6qooGF6Il1fNj2ZFIJtwRUSyYQlaw/exec";
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwQRN9IZJccVuDIcBPqAd4RpMZfh-ktpzPXhPCZ7PXjQSUCo4Ra970DiIjfIkou_iwT5g/exec";
 
     let isFirstMessage = true;
 
@@ -501,3 +489,4 @@
     });
 </script></body>
 </html>
+
